@@ -1,0 +1,3 @@
+<% scores.forEach(score => { %>
+    <li class="listOfScores">Name: <%= score.username %> <br> Score: <%= score.score %> <br> Zeit: <%= score.time %> <br> Erreichbare Ecken: <%= score.avlbcorners %> <br> <%= new Date(score.ts).toLocaleString() %> </li>
+<% }) %>
