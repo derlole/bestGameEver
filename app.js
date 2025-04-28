@@ -18,6 +18,6 @@ app.set('view engine', 'ejs')
 
 app.use('/', require('./server/routes/main'))
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${PORT}`)
 });
