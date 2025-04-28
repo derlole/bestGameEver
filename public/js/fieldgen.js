@@ -598,7 +598,7 @@ function sendScore(){
     const sendtime = endts - beginnts;
     const sendusername = document.getElementById("username").value;
 
-    const url = `/send?username=${sendusername}&score=${sendcounter}&time=${sendtime}&avlbcorners=${sendavlbcorners}`;
+    const url = `/SREU_TPHEU/send?username=${sendusername}&score=${sendcounter}&time=${sendtime}&avlbcorners=${sendavlbcorners}`;
     console.log(url);
     window.location.href = url;
 }
