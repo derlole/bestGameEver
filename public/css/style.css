@@ -95,6 +95,7 @@ body {
     height: 100%;
     width: 100%;
     border: rgb(92, 138, 24) 2px solid;
+    background-color: rgb(139, 194, 57);
 }
 .game_staus{
     position: absolute;

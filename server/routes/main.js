@@ -19,7 +19,7 @@ router.get('/', (req, res) => {
 
 router.get('/send', (req, res) => {
     insertScore({ username: req.query.username, score: req.query.score, time: req.query.time, avlbcorners: req.query.avlbcorners });
-    res.redirect('/SREU_TPHEU');
+    res.redirect('/SREU_TPHEU/');
 });
 
 router.get('/scores', (req, res) => {
